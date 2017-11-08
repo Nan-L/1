@@ -1,5 +1,5 @@
 $lt-gray: #ddd;
-$background-dark: #512DA8;
+$background-dark: #312d3a;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
 
@@ -68,4 +68,22 @@ body{
     right:0px;
     position: absolute;
     bottom: 0px;
+}
+
+.modal {
+    
+    .modal-header{
+        color:floralwhite;
+        background:$background-dark;
+        button {
+            color:floralwhite;
+        }
+        }
+    .modal-body{
+        background:$background-pale;
+    }
+    .modal-footer{
+        background:$background-dark;
+    }
+    
 }
